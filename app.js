@@ -3,14 +3,14 @@ const card = document.querySelector(".card");
 const container = document.querySelector(".container");
 
 
-//Items
+//components
 const title = document.querySelector(".title");
 const games = document.querySelector(".games img");
 const commande = document.querySelector(".commande");
 const description = document.querySelector(".text h3");
 const console = document.querySelector(".console");
 
-//Moving Animation Event
+//Action de la souris 
 container.addEventListener("mousemove", (e) => {
   let axeX = (window.innerWidth / 2 - e.pageX) / 25;
   let axeY = (window.innerHeight / 2 - e.pageY) / 25;
